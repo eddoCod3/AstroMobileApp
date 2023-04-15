@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="Container">
+        <div class="Form">
+            <div class="Item">
+                <img src="../img/Universe.jpg" alt="">
+            </div>
+            <div class="bkPurple">
+
+            </div>
+            <div class="ItemF">
+                <div>
+                    <input type="text" placeholder="Username" id="email">
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+
+                <div id="error"></div>
+
+                <div class="btnclss">
+                    <button class="btn" onclick="login();"> Login</button>
+                </div>
+
+                <p class="txt-left">Don't have account  <a href="./registro.html ">Register</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bd.js"></script>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>
